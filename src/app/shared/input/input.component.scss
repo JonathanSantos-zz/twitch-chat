@@ -1,0 +1,11 @@
+input {
+  padding: 11px 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  min-width: 193px;
+
+  &:focus {
+    outline: none;
+  }
+}

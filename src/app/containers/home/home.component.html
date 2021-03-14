@@ -1,0 +1,22 @@
+<div class="container container--responsive">
+  <div>
+    <app-twitch-icon></app-twitch-icon>
+  </div>
+  <div class="container__title">
+    <app-primary-text
+      value="Adicione o nome do streamer para visualizar o chat"
+    ></app-primary-text>
+  </div>
+  <div class="container__form">
+    <div class="container__input">
+      <app-input [(value)]="value"></app-input>
+    </div>
+    <div class="container__button">
+      <app-button
+        value="Abrir chat"
+        (onClick)="goToChat(value)"
+        [disabled]="isDisabled()"
+      ></app-button>
+    </div>
+  </div>
+</div>

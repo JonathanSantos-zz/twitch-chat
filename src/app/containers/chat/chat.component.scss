@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 16px;
+  overflow: auto;
+
+  color: #fafafa;
+  background-color: #18181b;
+
+  &__chat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-message {
+    display: flex;
+
+    & > div {
+      padding: 3px;
+    }
+  }
+}

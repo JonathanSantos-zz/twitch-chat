@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  &--responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    padding: 16px;
+    max-width: 600px;
+  }
+
+  &__input input::ng-deep {
+    width: 300px;
+  }
+
+  &__form > div {
+    padding: 4px;
+  }
+}
